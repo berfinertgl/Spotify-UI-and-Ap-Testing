@@ -47,7 +47,7 @@ Feature: Api Testing
           And  param type = 'track'
           And header Content-Type = 'application/json'
           When method get
-    
+
           * def playlistUri = response.tracks.items[5].uri
             And def requestAdd = {uris:[#(playlistUri)]}
             And url 'https://api.spotify.com/v1'

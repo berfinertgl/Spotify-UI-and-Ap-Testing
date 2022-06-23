@@ -22,4 +22,3 @@ Feature: sample karate test script
     And input('.Type__TypeElement-goli3j-0.ebHsEf.l42JW4EP_5CU1Ba7jYIc','Daft Punk')
     And waitFor("//button[@data-testid='add-to-playlist-button']").click()
     And waitFor("//div[contains(text(),'Çalma Listesine eklendi')]")
-
